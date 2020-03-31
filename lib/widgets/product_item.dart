@@ -35,6 +35,7 @@ class ProductItem extends StatelessWidget {
                 },
                 color: Theme.of(context).accentColor,
               ),
+              child: Text('Never changes!'),
             ),
             title: Text(
               product.title,
